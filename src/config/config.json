@@ -1,0 +1,12 @@
+{
+  "server": { "port": 4000, "portReddis": 6379 },
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "ejercicio",
+    "username": "admin",
+    "password": "admin123"
+  },
+  "security": { "secretKey": "abc", "expiresIn": "1d" },
+  "initialConfig": { "alreadyLogin": false }
+}

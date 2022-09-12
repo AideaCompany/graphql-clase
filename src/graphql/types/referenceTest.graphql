@@ -1,0 +1,13 @@
+type ReferenceTest {
+  _id: ID
+  name: String
+  test: Test
+}
+
+type Query {
+  listReferenceTest: Any
+}
+
+type Mutation {
+  createReferenceTest: Any
+}

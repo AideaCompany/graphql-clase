@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "es6",
+    "isolatedModules": true,
+    "removeComments": true,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@/models/*": ["models/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
