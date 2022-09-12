@@ -31,4 +31,4 @@ También le indican que desean asociar esa información a cada usuario, podría 
 
 > **Pista:** Busque como realizar referencias con GraphQL, si tiene dudas no dude en realizarlas.
 
-![good_luck](https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif)
+<img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif"/>
