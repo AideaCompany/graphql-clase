@@ -1,0 +1,31 @@
+type ReferenceTest {
+  _id: ID
+  name: String
+  test: Test
+}
+
+type Query {
+  listReferenceTest: Any
+  listTest: [Test]
+}
+
+type Mutation {
+  createReferenceTest: Any
+  createTest(input: createTestInput): Test
+}
+
+scalar Any
+
+type Test {
+  _id: ID
+  name: String
+}
+
+input createTestInput {
+  name: String
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

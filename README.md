@@ -30,5 +30,3 @@ _Es necesario que el punto anterior este correcto para continuar_
 También le indican que desean asociar esa información a cada usuario, podría usted ayudarles? **¡Mucha suerte!**
 
 > **Pista:** Busque como realizar referencias con GraphQL, si tiene dudas no dude en realizarlas.
-
-<img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif"/>
