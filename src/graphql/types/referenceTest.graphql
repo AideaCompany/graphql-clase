@@ -5,9 +5,14 @@ type ReferenceTest {
 }
 
 type Query {
-  listReferenceTest: Any
+  listReferenceTest: [ReferenceTest]
 }
 
 type Mutation {
-  createReferenceTest: Any
+  createReferenceTest(input: createReferenceTestInput): ReferenceTest
+}
+
+input createReferenceTestInput {
+  name: String
+  test: String
 }

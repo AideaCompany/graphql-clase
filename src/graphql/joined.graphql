@@ -5,13 +5,18 @@ type ReferenceTest {
 }
 
 type Query {
-  listReferenceTest: Any
+  listReferenceTest: [ReferenceTest]
   listTest: [Test]
 }
 
 type Mutation {
-  createReferenceTest: Any
+  createReferenceTest(input: createReferenceTestInput): ReferenceTest
   createTest(input: createTestInput): Test
+}
+
+input createReferenceTestInput {
+  name: String
+  test: String
 }
 
 scalar Any
